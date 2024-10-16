@@ -23,13 +23,15 @@ body {
 .container {
   color: white;
   text-transform: uppercase;
-  font-family: "Bungee Shade", sans-serif;
+  font-family: cursive;
   font-weight: 400;
   font-style: normal;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 30px;
+
+  margin: 30px;
 }
 
 button {
@@ -43,13 +45,13 @@ button {
 }
 
 button:hover {
-    cursor: pointer;
-    background: white;
-    color: black;
-    transition: all 0.3s ease-in;
+  cursor: pointer;
+  background: white;
+  color: black;
+  transition: all 0.3s ease-in;
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 300;
 }
